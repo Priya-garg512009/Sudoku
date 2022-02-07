@@ -1,0 +1,115 @@
+* {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 25px;
+  }
+  table {
+    border-collapse: collapse;
+    margin: 25px 455px 0 455px;
+  }
+  colgroup,
+  tbody {
+    border: solid medium #344861;
+  }
+  td {
+    border: solid 1px #bec6d4;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding: 0;
+  }
+  input {
+    height: 60px;
+    width: 60px;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+  }
+  /* disable spinning*/
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  /*diffulty level buttons*/
+  #easybtn {
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: none;
+  }
+  #mediumbtn {
+    margin-left: 200px;
+    border-radius: 3px;
+    border: none;
+  }
+  #hardbtn {
+    margin-left: 230px;
+    border-radius: 3px;
+    border: none;
+  }
+  #easybtn:hover {
+    border: 2px solid blue;
+  }
+  #mediumbtn:hover {
+    border: 2px solid blue;
+  }
+  #hardbtn:hover {
+    border: 2px solid blue;
+  }
+  input:hover {
+    background-color: rgb(145, 220, 250) !important;
+  }
+  /* validation button*/
+  #validbtn:hover {
+    border: 2px solid blue;
+  }
+  #validbtn {
+    margin-left: 680px;
+    margin-top: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+  @media(max-width:640px)
+  {
+    .difficulty
+    {
+      display:flex;
+      flex-flow:column;
+    }
+    #easybtn,#mediumbtn,#hardbtn
+    {
+      margin:0;
+      margin-top:5px;
+      font-size:25px;
+     }
+    table {
+    border-collapse: collapse;
+    margin:0;
+    margin-top:40px;
+  }
+   td {
+    border: solid 1px #bec6d4;
+    height:35px;
+    width:35px;
+    text-align: center;
+    padding: 0;
+  } 
+    input {
+    height:35px;
+    width:35px;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+  }
+    #validbtn
+    {
+      margin:0;
+      margin-top:15px;
+      margin-left:125px;
+    }
+  }
